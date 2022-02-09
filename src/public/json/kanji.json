@@ -1,0 +1,815 @@
+{
+   "kanji":
+   [{
+       "id":"1",
+       "symbol": "行く",
+       "pronunciation":"iku",
+       "english":"go"
+   },
+   {
+        "id":"2",
+        "symbol": "見る",
+        "pronunciation":"miru",
+        "english":["see","look at"]
+    },
+    {
+        "id":"3",
+        "symbol": "多い",
+        "pronunciation":"oii",
+        "english":["a lot", "many"]
+    },
+    {
+        "id":"4",
+        "symbol": "家",
+        "pronunciation":"ie",
+        "english":["home", "household"]
+    },
+    {
+        "id":"5",
+        "symbol": "これ",
+        "pronunciation":"kore",
+        "english":["this", "this one"]
+    },
+    {
+        "id":"6",
+        "symbol": "それ",
+        "pronunciation":"sore",
+        "english":["that", "that one"]
+    },
+    {
+        "id":"7",
+        "symbol": "私",
+        "pronunciation":"watashi",
+        "english":"i"
+    },
+    {
+        "id":"8",
+        "symbol": "仕事",
+        "pronunciation":"shigoto",
+        "english":["work", "job"]
+    },
+    {
+        "id":"9",
+        "symbol": "いつ",
+        "pronunciation":"itsu",
+        "english":"when"
+    },
+    {
+        "id":"10",
+        "symbol": "する",
+        "pronunciation":"suru",
+        "english":["do", "make"]
+    },
+    {
+        "id":"11",
+        "symbol": "出る",
+        "pronunciation":"deru",
+        "english":["go out","leave"]
+    },
+    {
+        "id":"12",
+        "symbol": "使う",
+        "pronunciation":"tsukau",
+        "english":["use", "make of"]
+    },
+    {
+        "id":"13",
+        "symbol": "所",
+        "pronunciation":"tokoro",
+        "english":"place"
+    },
+    {
+        "id":"14",
+        "symbol": "作る",
+        "pronunciation":"tsukuru",
+        "english":["make", "create"]
+    },
+    {
+        "id":"15",
+        "symbol": "思う",
+        "pronunciation":"omou",
+        "english":"think"
+    },
+    {
+        "id":"16",
+        "symbol": "持つ",
+        "pronunciation":"motsu",
+        "english":["have", "posses"]
+    },
+    {
+        "id":"17",
+        "symbol": "買う",
+        "pronunciation":"kau",
+        "english":"buy"
+    },
+    {
+        "id":"18",
+        "symbol": "時間",
+        "pronunciation":"jikan",
+        "english":["time", "hour"]
+    },
+    {
+        "id":"19",
+        "symbol": "知る",
+        "pronunciation":"shiru",
+        "english":"know"
+    },
+    {
+        "id":"20",
+        "symbol": "同じ",
+        "pronunciation":"onaji",
+        "english":["same", "identical"]
+    },
+    {
+        "id":"21",
+        "symbol": "今",
+        "pronunciation":"ima",
+        "english":"now"
+    },
+    {
+        "id":"22",
+        "symbol": "新しい",
+        "pronunciation":"atarashi",
+        "english":"new"
+    },
+    {
+        "id":"23",
+        "symbol": "なる",
+        "pronunciation":"naru",
+        "english":"become"
+    },
+    {
+        "id":"24",
+        "symbol": "まだ",
+        "pronunciation":"mada",
+        "english":["not yet", "yet", "still"]
+    },
+    {
+        "id":"25",
+        "symbol": "あと",
+        "pronunciation":"ato",
+        "english":"after"
+    },
+    {
+        "id":"26",
+        "symbol": "聞く",
+        "pronunciation":"kiku",
+        "english":["hear","ask"]
+    },
+    {
+        "id":"27",
+        "symbol": "言う",
+        "pronunciation":"iu",
+        "english":["say","tell"]
+    },
+    {
+        "id":"28",
+        "symbol": "少ない",
+        "pronunciation":"sukunai",
+        "english":["few", "little"]
+    },
+    {
+        "id":"29",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"30",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"31",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"32",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"33",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"34",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"35",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"36",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"37",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },{
+        "id":"38",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"39",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"40",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"41",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"42",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"43",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"44",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"45",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"46",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"47",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"48",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"49",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"50",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"51",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"52",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"53",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"54",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"55",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"56",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"57",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"58",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"59",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"60",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"61",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"62",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"63",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"64",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"65",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"66",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"67",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"68",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"69",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"70",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"72",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    },
+    {
+        "id":"71",
+        "symbol": "",
+        "pronunciation":"",
+        "english":""
+    }
+
+]}
+
+   

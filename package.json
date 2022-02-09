@@ -1,0 +1,25 @@
+{
+  "type": "module",
+  "name": "k",
+  "version": "1.0.0",
+  "description": "\"learning the common 1000 japanese words\"",
+  "author": "Wilfreno Gayongan",
+  "license": "MIT",
+  "scripts": {
+    "dev": "nodemon"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.17.0",
+    "@babel/core": "^7.16.12",
+    "@babel/node": "^7.16.8",
+    "@babel/preset-env": "^7.16.11",
+    "nodemon": "^2.0.15"
+  },
+  "dependencies": {
+    "dotenv": "^15.0.0",
+    "express": "^4.17.2",
+    "mongoose": "^6.2.1",
+    "pug": "^3.0.2",
+    "socket.io": "^4.4.1"
+  }
+}
