@@ -16,9 +16,7 @@
     "nodemon": "^2.0.15"
   },
   "dependencies": {
-    "dotenv": "^15.0.0",
     "express": "^4.17.2",
-    "mongoose": "^6.2.1",
     "pug": "^3.0.2",
     "socket.io": "^4.4.1"
   }

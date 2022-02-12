@@ -1,815 +1,605 @@
-{
-   "kanji":
-   [{
-       "id":"1",
-       "symbol": "行く",
-       "pronunciation":"iku",
+﻿{
+   
+    "1":
+   {
+       "japanese": "行く",
+       "romaji":"iku",
        "english":"go"
    },
+   "2":
    {
-        "id":"2",
-        "symbol": "見る",
-        "pronunciation":"miru",
+        "japanese": "見る",
+        "romaji":"miru",
         "english":["see","look at"]
     },
+    "3":
     {
-        "id":"3",
-        "symbol": "多い",
-        "pronunciation":"oii",
+        "japanese": "多い",
+        "romaji":"oii",
         "english":["a lot", "many"]
     },
+    "4":
     {
-        "id":"4",
-        "symbol": "家",
-        "pronunciation":"ie",
+        "japanese": "家",
+        "romaji":"ie",
         "english":["home", "household"]
     },
+    "5":
     {
-        "id":"5",
-        "symbol": "これ",
-        "pronunciation":"kore",
+        "japanese": "これ",
+        "romaji":"kore",
         "english":["this", "this one"]
     },
+    "6":
     {
-        "id":"6",
-        "symbol": "それ",
-        "pronunciation":"sore",
+        "japanese": "それ",
+        "romaji":"sore",
         "english":["that", "that one"]
     },
+    "7":
     {
-        "id":"7",
-        "symbol": "私",
-        "pronunciation":"watashi",
+        "japanese": "私",
+        "romaji":"watashi",
         "english":"i"
     },
+    "8":
     {
-        "id":"8",
-        "symbol": "仕事",
-        "pronunciation":"shigoto",
+        "japanese": "仕事",
+        "romaji":"shigoto",
         "english":["work", "job"]
     },
+    "9":
     {
-        "id":"9",
-        "symbol": "いつ",
-        "pronunciation":"itsu",
+        "japanese": "いつ",
+        "romaji":"itsu",
         "english":"when"
     },
+    "10":
     {
-        "id":"10",
-        "symbol": "する",
-        "pronunciation":"suru",
+        "japanese": "する",
+        "romaji":"suru",
         "english":["do", "make"]
     },
+    "11":
     {
-        "id":"11",
-        "symbol": "出る",
-        "pronunciation":"deru",
+        "japanese": "出る",
+        "romaji":"deru",
         "english":["go out","leave"]
     },
+    "12":
     {
-        "id":"12",
-        "symbol": "使う",
-        "pronunciation":"tsukau",
+        "japanese": "使う",
+        "romaji":"tsukau",
         "english":["use", "make of"]
     },
+    "13":
     {
-        "id":"13",
-        "symbol": "所",
-        "pronunciation":"tokoro",
+        "japanese": "所",
+        "romaji":"tokoro",
         "english":"place"
     },
+    "14":
     {
-        "id":"14",
-        "symbol": "作る",
-        "pronunciation":"tsukuru",
+        "japanese": "作る",
+        "romaji":"tsukuru",
         "english":["make", "create"]
     },
+    "15":
     {
-        "id":"15",
-        "symbol": "思う",
-        "pronunciation":"omou",
+        "japanese": "思う",
+        "romaji":"omou",
         "english":"think"
     },
+    "16":
     {
-        "id":"16",
-        "symbol": "持つ",
-        "pronunciation":"motsu",
+        "japanese": "持つ",
+        "romaji":"motsu",
         "english":["have", "posses"]
     },
+    "17":
     {
-        "id":"17",
-        "symbol": "買う",
-        "pronunciation":"kau",
+        "japanese": "買う",
+        "romaji":"kau",
         "english":"buy"
     },
+    "18":
     {
-        "id":"18",
-        "symbol": "時間",
-        "pronunciation":"jikan",
+        "japanese": "時間",
+        "romaji":"jikan",
         "english":["time", "hour"]
     },
+    "19":
     {
-        "id":"19",
-        "symbol": "知る",
-        "pronunciation":"shiru",
+        "japanese": "知る",
+        "romaji":"shiru",
         "english":"know"
     },
+    "20":
     {
-        "id":"20",
-        "symbol": "同じ",
-        "pronunciation":"onaji",
+        "japanese": "同じ",
+        "romaji":"onaji",
         "english":["same", "identical"]
     },
+    "21":
     {
-        "id":"21",
-        "symbol": "今",
-        "pronunciation":"ima",
+        "japanese": "今",
+        "romaji":"ima",
         "english":"now"
     },
+    "22":
     {
-        "id":"22",
-        "symbol": "新しい",
-        "pronunciation":"atarashi",
+        "japanese": "新しい",
+        "romaji":"atarashi",
         "english":"new"
     },
+    "23":
     {
-        "id":"23",
-        "symbol": "なる",
-        "pronunciation":"naru",
+        "japanese": "なる",
+        "romaji":"naru",
         "english":"become"
     },
+    "24":
     {
-        "id":"24",
-        "symbol": "まだ",
-        "pronunciation":"mada",
+        "japanese": "まだ",
+        "romaji":"mada",
         "english":["not yet", "yet", "still"]
     },
+    "25":
     {
-        "id":"25",
-        "symbol": "あと",
-        "pronunciation":"ato",
+        "japanese": "あと",
+        "romaji":"ato",
         "english":"after"
     },
+    "26":
     {
-        "id":"26",
-        "symbol": "聞く",
-        "pronunciation":"kiku",
+        "japanese": "聞く",
+        "romaji":"kiku",
         "english":["hear","ask"]
     },
+    "27":
     {
-        "id":"27",
-        "symbol": "言う",
-        "pronunciation":"iu",
+        "japanese": "言う",
+        "romaji":"iu",
         "english":["say","tell"]
     },
+    "28":
     {
-        "id":"28",
-        "symbol": "少ない",
-        "pronunciation":"sukunai",
-        "english":["few", "little"]
+        "japanese": "少ない",
+        "romaji":"sukunai",
+        "english":["few","little"]
     },
+    "29":
     {
-        "id":"29",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "高い",
+        "romaji":"takai",
+        "english":["high","tall"]
     },
+    "30":
     {
-        "id":"30",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "子供",
+        "romaji":"kodomo",
+        "english":["child"]
     },
+    "31":
     {
-        "id":"31",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "そう",
+        "romaji":"sou",
+        "english":["so","that way"]
     },
+    "32":
     {
-        "id":"32",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "もう",
+        "romaji":"mou",
+        "english":["already","yet"]
     },
+    "33":
     {
-        "id":"33",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "学生",
+        "romaji":"gakusei",
+        "english":["student"]
     },
+    "34":
     {
-        "id":"34",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "熱い",
+        "romaji":"atsui",
+        "english":["hot"]
     },
+    "35":
     {
-        "id":"35",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "どうぞ",
+        "romaji":"douzo",
+        "english":["please"]
     },
+    "36":
     {
-        "id":"36",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "午後",
+        "romaji":"gogo",
+        "english":["afternoon","p.m."]
     },
+    "37":
     {
-        "id":"37",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },{
-        "id":"38",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "長い",
+        "romaji":"nagai",
+        "english":["long"]
+        
     },
+    "38":
     {
-        "id":"39",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "本",
+        "romaji":"hon",
+        "english":["book","volume"]
     },
+    "39":
     {
-        "id":"40",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "今年",
+        "romaji":"kotoshi",
+        "english":["this year"]
     },
+    "40":
     {
-        "id":"41",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "よく",
+        "romaji":"yoku",
+        "english":["often","well"]
     },
+    "41":
     {
-        "id":"42",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "彼女",
+        "romaji":"kanojo",
+        "english":["she","girlfriend"]
     },
+    "42":
     {
-        "id":"43",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "どう",
+        "romaji":"dou",
+        "english":["how","what"]
     },
+    "43":
     {
-        "id":"44",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "言葉",
+        "romaji":"kotoba",
+        "english":["word","language"]
     },
+    "44":
     {
-        "id":"45",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "顔",
+        "romaji":"kao",
+        "english":["face"]
     },
+    "45":
     {
-        "id":"46",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "終わる",
+        "romaji":"owaru",
+        "english":[" finish","end"]
     },
+    "46":
     {
-        "id":"47",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "一つ",
+        "romaji":"hitotsu",
+        "english":["one"]
     },
+    "47":
     {
-        "id":"48",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "あげる",
+        "romaji":"ageru",
+        "english":["give","offer"]
     },
+    "48":
     {
-        "id":"49",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "こう",
+        "romaji":"kou",
+        "english":["like this","such"]
     },
+    "49":
     {
-        "id":"50",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "学校",
+        "romaji":"gakkou",
+        "english":["school"]
     },
+    "50":
     {
-        "id":"51",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "くれる",
+        "romaji":"kureru",
+        "english":["be given"]
     },
+    "51":
     {
-        "id":"52",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "始める",
+        "romaji":"hajimeru",
+        "english":["start"]
     },
+    "52":
     {
-        "id":"53",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "起きる",
+        "romaji":"okiru",
+        "english":["get up","get out of bed"]
     },
+    "53":
     {
-        "id":"54",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "春",
+        "romaji":"haru",
+        "english":["spring"]
     },
+    "54":
     {
-        "id":"55",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "午前",
+        "romaji":"gozen",
+        "english":["morning","a.m."]
     },
+    "55":
     {
-        "id":"56",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "別",
+        "romaji":"betsu",
+        "english":["another","different"]
     },
+    "56":
     {
-        "id":"57",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "どこ",
+        "romaji":"doko",
+        "english":["where"]
     },
+    "57":
     {
-        "id":"58",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "部屋",
+        "romaji":"heya",
+        "english":["room"]
     },
+    "58":
     {
-        "id":"59",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "若い",
+        "romaji":"wakai",
+        "english":["young"]
     },
+    "59":
     {
-        "id":"60",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "車",
+        "romaji":"kuruma",
+        "english":["car","automobile"]
     },
+    "60":
     {
-        "id":"61",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "置く",
+        "romaji":"oku",
+        "english":["put","place"]
     },
+    "61":
     {
-        "id":"62",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "住む",
+        "romaji":"sumu",
+        "english":["live","reside"]
     },
+    "62":
     {
-        "id":"63",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "働く",
+        "romaji":"hataraku",
+        "english":["work"]
     },
+    "63":
     {
-        "id":"64",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "難しい",
+        "romaji":"muzukashii",
+        "english":["difficult"]
     },
+    "64":
     {
-        "id":"65",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "先生",
+        "romaji":"sensei",
+        "english":["teacher"]
     },
+    "65":
     {
-        "id":"66",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "立つ",
+        "romaji":"tatsu",
+        "english":["stand","rise"]
     },
+    "66":
     {
-        "id":"67",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "呼ぶ",
+        "romaji":"yobu",
+        "english":["call","name"]
     },
+    "67":
     {
-        "id":"68",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "大学",
+        "romaji":"daigaku",
+        "english":["university","college"]
     },
+    "68":
     {
-        "id":"69",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "安い",
+        "romaji":"yasui",
+        "english":["cheap","inexpensive"]
     },
+    "69":
     {
-        "id":"70",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "もっと",
+        "romaji":"motto",
+        "english":["more"]
     },
+    "70":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "帰る",
+        "romaji":"kaeru",
+        "english":["go back home"]
     },
+    "71":
     {
-        "id":"72",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "分かる",
+        "romaji":"wakaru",
+        "english":["understand"]
     },
+    "72":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "広い",
+        "romaji":"hiroi",
+        "english":["wide","big"]
     },
+    "73":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "数",
+        "romaji":"suu",
+        "english":["number"]
     },
+    "74":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "近い",
+        "romaji":"chikai",
+        "english":["near","close"]
     },
+    "75":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "そこ",
+        "romaji":"soko",
+        "english":["there"]
     },
+    "76":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "走る",
+        "romaji":"hashiru",
+        "english":["run"]
     },
+    "77":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "入れる",
+        "romaji":"ireru",
+        "english":["put in"]
     },
+    "78":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "教える",
+        "romaji":"oshieru",
+        "english":["teach","tell"]
     },
+    "79":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "歩く",
+        "romaji":"aruku",
+        "english":["walk","go on foot"]
     },
+    "80":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "会う",
+        "romaji":"au",
+        "english":["meet"]
     },
+    "81":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "書く",
+        "romaji":"kaku",
+        "english":["write"]
     },
+    "82":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "頭",
+        "romaji":"atama",
+        "english":["head"]
     },
+    "83":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "売る",
+        "romaji":"uru",
+        "english":["sell"]
     },
+    "84":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "大好き",
+        "romaji":"daisuki",
+        "english":["like","love"]
     },
+    "85":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "体",
+        "romaji":"karada",
+        "english":["body","physique"]
     },
+    "86":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "直ぐ",
+        "romaji":"sugu",
+        "english":["at once","soon"]
     },
+    "87":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "飛ぶ",
+        "romaji":"tobu",
+        "english":["fly"]
     },
+    "88":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "とても",
+        "romaji":"totemo",
+        "english":["very"]
     },
+    "89":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "誰",
+        "romaji":"dare",
+        "english":["who"]
     },
+    "90":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "好き",
+        "romaji":"suki",
+        "english":["favorite","liked"]
     },
+    "91":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "読む",
+        "romaji":"yomu",
+        "english":["read"]
     },
+    "92":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "次",
+        "romaji":"tsugi",
+        "english":["next"]
     },
+    "93":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "あなた",
+        "romaji":"anata",
+        "english":["you"]
     },
+    "94":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "飲む",
+        "romaji":"nomu",
+        "english":["drink"]
     },
+    "95":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "古い",
+        "romaji":"furui",
+        "english":["old"]
     },
+    "96":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "質問",
+        "romaji":"shitsumon",
+        "english":["question"]
     },
+    "97":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "今日",
+        "romaji":"kyou",
+        "english":["today"]
     },
+    "98":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "友達",
+        "romaji":"tomodachi",
+        "english":["friend","companion"]
     },
+    "99":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "早い",
+        "romaji":"hayai",
+        "english":["early"]
     },
+    "100":
     {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
-    },
-    {
-        "id":"71",
-        "symbol": "",
-        "pronunciation":"",
-        "english":""
+        "japanese": "どれ",
+        "romaji":"dore",
+        "english":["what","which"]
     }
-
-]}
-
-   
+    
+}

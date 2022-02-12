@@ -1,24 +1,505 @@
-import mongoose, { model, Schema } from "mongoose";
-
-const Scheme = mongoose.Schema;
-
-const kanjiSchema = new Schema({
-
-    symbol: {
-        type: String,
-        required: true
+const kanji = [
+   {
+       "japanese": "行く",
+       "romaji":"iku",
+       "english":"go"
+   },
+   {
+        "japanese": "見る",
+        "romaji":"miru",
+        "english":["see","look at"]
     },
-
-    pronunciation: {
-        type :String,
-        required: true
+    {
+        "japanese": "多い",
+        "romaji":"oii",
+        "english":["a lot", "many"]
     },
-
-    english : {
-        type: String,
-        required: true
+    {
+        "japanese": "家",
+        "romaji":"ie",
+        "english":["home", "household"]
+    },
+    {
+        "japanese": "これ",
+        "romaji":"kore",
+        "english":["this", "this one"]
+    },
+    {
+        "japanese": "それ",
+        "romaji":"sore",
+        "english":["that", "that one"]
+    },
+    {
+        "japanese": "私",
+        "romaji":"watashi",
+        "english":"i"
+    },
+    {
+        "japanese": "仕事",
+        "romaji":"shigoto",
+        "english":["work", "job"]
+    },
+    {
+        "japanese": "いつ",
+        "romaji":"itsu",
+        "english":"when"
+    },
+    {
+        "japanese": "する",
+        "romaji":"suru",
+        "english":["do", "make"]
+    },
+    {
+        "japanese": "出る",
+        "romaji":"deru",
+        "english":["go out","leave"]
+    },
+    {
+        "japanese": "使う",
+        "romaji":"tsukau",
+        "english":["use", "make of"]
+    },
+    {
+        "japanese": "所",
+        "romaji":"tokoro",
+        "english":"place"
+    },
+    {
+        "japanese": "作る",
+        "romaji":"tsukuru",
+        "english":["make", "create"]
+    },
+    {
+        "japanese": "思う",
+        "romaji":"omou",
+        "english":"think"
+    },
+    {
+        "japanese": "持つ",
+        "romaji":"motsu",
+        "english":["have", "posses"]
+    },
+    {
+        "japanese": "買う",
+        "romaji":"kau",
+        "english":"buy"
+    },
+    {
+        "japanese": "時間",
+        "romaji":"jikan",
+        "english":["time", "hour"]
+    },
+    {
+        "japanese": "知る",
+        "romaji":"shiru",
+        "english":"know"
+    },
+    {
+        "japanese": "同じ",
+        "romaji":"onaji",
+        "english":["same", "identical"]
+    },
+    {
+        "japanese": "今",
+        "romaji":"ima",
+        "english":"now"
+    },
+    {
+        "japanese": "新しい",
+        "romaji":"atarashi",
+        "english":"new"
+    },
+    {
+        "japanese": "なる",
+        "romaji":"naru",
+        "english":"become"
+    },
+    {
+        "japanese": "まだ",
+        "romaji":"mada",
+        "english":["not yet", "yet", "still"]
+    },
+    {
+        "japanese": "あと",
+        "romaji":"ato",
+        "english":"after"
+    },
+    {
+        "japanese": "聞く",
+        "romaji":"kiku",
+        "english":["hear","ask"]
+    },
+    {
+        "japanese": "言う",
+        "romaji":"iu",
+        "english":["say","tell"]
+    },
+    {
+        "japanese": "少ない",
+        "romaji":"sukunai",
+        "english":["few","little"]
+    },
+    {
+        "japanese": "高い",
+        "romaji":"takai",
+        "english":["high","tall"]
+    },
+    {
+        "japanese": "子供",
+        "romaji":"kodomo",
+        "english":["child"]
+    },
+    {
+        "japanese": "そう",
+        "romaji":"sou",
+        "english":["so","that way"]
+    },
+    {
+        "japanese": "もう",
+        "romaji":"mou",
+        "english":["already","yet"]
+    },
+    {
+        "japanese": "学生",
+        "romaji":"gakusei",
+        "english":["student"]
+    },
+    {
+        "japanese": "熱い",
+        "romaji":"atsui",
+        "english":["hot"]
+    },
+    {
+        "japanese": "どうぞ",
+        "romaji":"douzo",
+        "english":["please"]
+    },
+    {
+        "japanese": "午後",
+        "romaji":"gogo",
+        "english":["afternoon","p.m."]
+    },
+    {
+        "japanese": "長い",
+        "romaji":"nagai",
+        "english":["long"]
+        
+    },
+    {
+        "japanese": "本",
+        "romaji":"hon",
+        "english":["book","volume"]
+    },
+    {
+        "japanese": "今年",
+        "romaji":"kotoshi",
+        "english":["this year"]
+    },
+    {
+        "japanese": "よく",
+        "romaji":"yoku",
+        "english":["often","well"]
+    },
+    {
+        "japanese": "彼女",
+        "romaji":"kanojo",
+        "english":["she","girlfriend"]
+    },
+    {
+        "japanese": "どう",
+        "romaji":"dou",
+        "english":["how","what"]
+    },
+    {
+        "japanese": "言葉",
+        "romaji":"kotoba",
+        "english":["word","language"]
+    },
+    {
+        "japanese": "顔",
+        "romaji":"kao",
+        "english":["face"]
+    },
+    {
+        "japanese": "終わる",
+        "romaji":"owaru",
+        "english":[" finish","end"]
+    },
+    {
+        "japanese": "一つ",
+        "romaji":"hitotsu",
+        "english":["one"]
+    },
+    {
+        "japanese": "あげる",
+        "romaji":"ageru",
+        "english":["give","offer"]
+    },
+    {
+        "japanese": "こう",
+        "romaji":"kou",
+        "english":["like this","such"]
+    },
+    {
+        "japanese": "学校",
+        "romaji":"gakkou",
+        "english":["school"]
+    },
+    {
+        "japanese": "くれる",
+        "romaji":"kureru",
+        "english":["be given"]
+    },
+    {
+        "japanese": "始める",
+        "romaji":"hajimeru",
+        "english":["start"]
+    },
+    {
+        "japanese": "起きる",
+        "romaji":"okiru",
+        "english":["get up","get out of bed"]
+    },
+    {
+        "japanese": "春",
+        "romaji":"haru",
+        "english":["spring"]
+    },
+    {
+        "japanese": "午前",
+        "romaji":"gozen",
+        "english":["morning","a.m."]
+    },
+    {
+        "japanese": "別",
+        "romaji":"betsu",
+        "english":["another","different"]
+    },
+    {
+        "japanese": "どこ",
+        "romaji":"doko",
+        "english":["where"]
+    },
+    {
+        "japanese": "部屋",
+        "romaji":"heya",
+        "english":["room"]
+    },
+    {
+        "japanese": "若い",
+        "romaji":"wakai",
+        "english":["young"]
+    },
+    {
+        "japanese": "車",
+        "romaji":"kuruma",
+        "english":["car","automobile"]
+    },
+    {
+        "japanese": "置く",
+        "romaji":"oku",
+        "english":["put","place"]
+    },
+    {
+        "japanese": "住む",
+        "romaji":"sumu",
+        "english":["live","reside"]
+    },
+    {
+        "japanese": "働く",
+        "romaji":"hataraku",
+        "english":["work"]
+    },
+    {
+        "japanese": "難しい",
+        "romaji":"muzukashii",
+        "english":["difficult"]
+    },
+    {
+        "japanese": "先生",
+        "romaji":"sensei",
+        "english":["teacher"]
+    },
+    {
+        "japanese": "立つ",
+        "romaji":"tatsu",
+        "english":["stand","rise"]
+    },
+    {
+        "japanese": "呼ぶ",
+        "romaji":"yobu",
+        "english":["call","name"]
+    },
+    {
+        "japanese": "大学",
+        "romaji":"daigaku",
+        "english":["university","college"]
+    },
+    {
+        "japanese": "安い",
+        "romaji":"yasui",
+        "english":["cheap","inexpensive"]
+    },
+    {
+        "japanese": "もっと",
+        "romaji":"motto",
+        "english":["more"]
+    },
+    {
+        "japanese": "帰る",
+        "romaji":"kaeru",
+        "english":["go back home"]
+    },
+    {
+        "japanese": "分かる",
+        "romaji":"wakaru",
+        "english":["understand"]
+    },
+    {
+        "japanese": "広い",
+        "romaji":"hiroi",
+        "english":["wide","big"]
+    },
+    {
+        "japanese": "数",
+        "romaji":"suu",
+        "english":["number"]
+    },
+    {
+        "japanese": "近い",
+        "romaji":"chikai",
+        "english":["near","close"]
+    },
+    {
+        "japanese": "そこ",
+        "romaji":"soko",
+        "english":["there"]
+    },
+    {
+        "japanese": "走る",
+        "romaji":"hashiru",
+        "english":["run"]
+    },
+    {
+        "japanese": "入れる",
+        "romaji":"ireru",
+        "english":["put in"]
+    },
+    {
+        "japanese": "教える",
+        "romaji":"oshieru",
+        "english":["teach","tell"]
+    },
+    {
+        "japanese": "歩く",
+        "romaji":"aruku",
+        "english":["walk","go on foot"]
+    },
+    {
+        "japanese": "会う",
+        "romaji":"au",
+        "english":["meet"]
+    },
+    {
+        "japanese": "書く",
+        "romaji":"kaku",
+        "english":["write"]
+    },
+    {
+        "japanese": "頭",
+        "romaji":"atama",
+        "english":["head"]
+    },
+    {
+        "japanese": "売る",
+        "romaji":"uru",
+        "english":["sell"]
+    },
+    {
+        "japanese": "大好き",
+        "romaji":"daisuki",
+        "english":["like","love"]
+    },
+    {
+        "japanese": "体",
+        "romaji":"karada",
+        "english":["body","physique"]
+    },
+    {
+        "japanese": "直ぐ",
+        "romaji":"sugu",
+        "english":["at once","soon"]
+    },
+    {
+        "japanese": "飛ぶ",
+        "romaji":"tobu",
+        "english":["fly"]
+    },
+    {
+        "japanese": "とても",
+        "romaji":"totemo",
+        "english":["very"]
+    },
+    {
+        "japanese": "誰",
+        "romaji":"dare",
+        "english":["who"]
+    },
+    {
+        "japanese": "好き",
+        "romaji":"suki",
+        "english":["favorite","liked"]
+    },
+    {
+        "japanese": "読む",
+        "romaji":"yomu",
+        "english":["read"]
+    },
+    {
+        "japanese": "次",
+        "romaji":"tsugi",
+        "english":["next"]
+    },
+    {
+        "japanese": "あなた",
+        "romaji":"anata",
+        "english":["you"]
+    },
+    {
+        "japanese": "飲む",
+        "romaji":"nomu",
+        "english":["drink"]
+    },
+    {
+        "japanese": "古い",
+        "romaji":"furui",
+        "english":["old"]
+    },
+    {
+        "japanese": "質問",
+        "romaji":"shitsumon",
+        "english":["question"]
+    },
+    {
+        "japanese": "今日",
+        "romaji":"kyou",
+        "english":["today"]
+    },
+    {
+        "japanese": "友達",
+        "romaji":"tomodachi",
+        "english":["friend","companion"]
+    },
+    {
+        "japanese": "早い",
+        "romaji":"hayai",
+        "english":["early"]
+    },
+    {
+        "japanese": "どれ",
+        "romaji":"dore",
+        "english":["what","which"]
     }
-});
-
-const Kanji = mongoose.model("Kanji", kanjiSchema);
-model.exports = Kanji;
+]
+    
+export default kanji;
