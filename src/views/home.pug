@@ -7,16 +7,17 @@ html(lang="en")
         title K
         link(rel="stylesheet", href="/css/style.css")
     body 
+    
         header  
-            h1.kanji 
+            h1
         main 
                 form
+                    div
+                        input(type="text" placeholder="Romaji")
                     div 
-                        input(type="text" placeholder="Romaji" required)
-                    div
-                        input(type=" text" placeholder="English" required)
-                    div
-                        button submit 
+                        input(type=" text" placeholder="English")
+                    div 
+                        button.btn  submit 
 
         script(src="/socket.io/socket.io.js") 
         script(src="/js/app.js")

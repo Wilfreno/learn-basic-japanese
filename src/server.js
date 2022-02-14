@@ -12,6 +12,8 @@ const httpServer = createServer(app);
 const ioServer = new Server(httpServer);
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = dirname(__filename);
+let data;
+let data_kanji;
 
 
 app.set("view engine", "pug");
@@ -28,31 +30,40 @@ app.get("/*", (req, res) => {
     res.redirect("/")
 });
 
+const start = () => {
+
+    data = kanji[Math.floor(Math.random() * kanji.length + 1)];
+    data_kanji = data.japanese;
+}
 
 ioServer.on("connection", (socket) => {
-
-    const value = Math.floor(Math.random() * kanji.length + 1);
-    const data = kanji[value];
-    const data_kanji = data.japanese;
     
+    start();
     socket.emit("play", data_kanji)
 
     socket.on("submit", (rom, eng, play) =>{
 
-        if(rom != data.romaji){
+        if(rom = !data.romaji){
 
             socket.emit("roErr", data.romaji);
-            play();
         }
-        if(eng != data.english){
+        if(rom = data.romaji){
+            socket.emit("rCorrect", data. romaji);
+        }
+        if(data.english.includes(eng)){
+                socket.emit("eCorrect", data.english);           
+        }
+        if(!data.english.includes(eng)){
             socket.emit("eError", data.english);
-            play();
-        }else{
-            socket.emit("correct" , data.romaji, data.english);
-            play();
         }
         
-        
+        play();
+    });
+    
+    console.log(data.romaji);
+    console.log(data.english);
+    socket.on("next", () =>{
+        start();
     });
 
 });
