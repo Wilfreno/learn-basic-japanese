@@ -1,10 +1,5 @@
 const kanji = [
    {
-       "japanese": "行く",
-       "romaji":"iku",
-       "english":"go"
-   },
-   {
         "japanese": "見る",
         "romaji":"miru",
         "english":["see","look at"]
