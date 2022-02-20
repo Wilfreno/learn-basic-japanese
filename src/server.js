@@ -1,64 +1,78 @@
-import {createServer} from "http";
-import {Server} from "socket.io"
-import express from "express";
+import express, { request } from "express";
 import path from "path/posix";
-import kanji from "./models/kanji.js";
+import bodyParser from "body-parser"
+import kanji from "./public/models/kanji.js";
+
+
 
 const app = express();
 const port = 3000;
-const httpServer = createServer(app);
-const ioServer = new Server(httpServer);
-let data;
-let data_kanji;
+let kanjiObject = kanji[randomValue()]
+
 
 app.set("view engine", "pug");
 app.set("views", __dirname + "/views");
 app.use(express.static(path.join(__dirname, 'public')));
- 
+app.use(bodyParser.urlencoded({extended: true}));
+app.use(bodyParser.json());
 
 
-app.get("/", async (req, res) => {
-    res.render("home");
+
+app.get("/", (req, res) => {
+    res.render("home")
 });
+
+app.get("/play", (req, res) => {
+   
+    let romajiResult
+    let englishResult
+    let romData = req.query.romanjiData
+    let engData = req.query.englishData
+
+    if(romData != kanjiObject.romaji){
+        
+        romajiResult = `${romData}❌`
+
+    }
+    if(romData === kanjiObject.romaji){
+        
+        romajiResult = `${romData}✔`
+
+    }
+    if(engData != kanjiObject.english){
+        
+        englishResult = `${engData}❌`
+
+    }
+    if(engData === kanjiObject.english){
+        
+        englishResult = `${engData}✔`
+
+    }
+
+
+    res.render("start",{
+        kanjiValue : kanjiObject.japanese, 
+        romaji : kanjiObject.romaji,
+        english : kanjiObject.english,
+        romajiR : romajiResult,
+        englishR : englishResult
+    })
+
+})    
+
 
 app.get("/*", (req, res) => {
-    res.redirect("/")
+    res.redirect("/play")
 });
 
-function start(){
+function randomValue(){
 
-    data = kanji[Math.floor(Math.random() * kanji.length + 1)];
-    data_kanji = data.japanese;
+    return Math.floor(Math.random() * (kanji.length + 1))
 
-    return data_kanji
 }
 
-ioServer.on("connection", (socket) => {
-    
-    start();
-    socket.emit("play", start());
-    socket.on("submit", (rom, eng, next) =>{
-        
-        
-        next();
-        if(rom != data.romaji){
-            
-            socket.emit("romErr", data.romaji);
-        }
-        if(rom === data.romaji){
-            socket.emit("rCorrect", data. romaji);
-        }
-        if(data.english.includes(eng)){
-                socket.emit("eCorrect", data.english);           
-        }
-        if(!data.english.includes(eng)){
-            socket.emit("eError", data.english);
-        }
-    });
-    
-    console.log(data.romaji);
-    console.log(data.english);
+
+app.listen(port,() => {
+    console.log("running...", kanjiObject)
 });
-
-
-httpServer.listen(port,() => console.log("running..."));
