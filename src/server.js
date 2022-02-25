@@ -5,7 +5,7 @@ import kanji from "./public/model/kanji"
 
 
 const app = express();
-const port = 3000;
+const port = 3000 || "https://wilfreno.github.io/learn-basic-japanese";
 
 
 app.set("view engine", "pug");
