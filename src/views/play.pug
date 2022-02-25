@@ -1,0 +1,28 @@
+extends base.pug
+
+block css 
+        link(rel="stylesheet", href="/css/play.css")
+block content 
+        header.content#kanji 
+            h1.kanji#kanji__content
+        main 
+            .modal 
+                .modal__content 
+                    .result  
+                        h1.kanji#kanji__result
+                        .value__result  
+                            h2.result#romaji__result
+                            h2.result#english__result 
+                    .next 
+                        button.next__button#next next 
+            form(autocomplete="off").content#input  
+                input.input__bar#romaji__input(type="text" placeholder="Romaji" name="romajiData" )
+                input.input__bar#english__input(type="text" placeholder="English" name="englishData" )
+                .submit  
+                    button#submitbtn Enter 
+
+  
+                
+
+        script(src="/js/play.js")
+
